@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Online Shop</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <script src="js/jquery-2.1.3.min.js"></script>
+    <!--include mixin-->
+  </head>
+  <body>
+    <div class="container_main">
+      <div class="row">
+        <div style="position: fixed;top: 0px;z-index: 9999;" class="col-xs-12 pad_rmv">
+          <div class="col-xs-3 pad_rmv">
+            <div class="color1 col-xs-6 pad_rmv">&nbsp;</div>
+            <div class="color2 col-xs-6 pad_rmv">&nbsp;</div>
+          </div>
+          <div class="col-xs-3 pad_rmv">
+            <div class="color3 col-xs-6 pad_rmv">&nbsp;</div>
+            <div class="color4 col-xs-6 pad_rmv">&nbsp;</div>
+          </div>
+          <div class="col-xs-3 pad_rmv">
+            <div class="color5 col-xs-6 pad_rmv">&nbsp;</div>
+            <div class="color6 col-xs-6 pad_rmv">&nbsp;</div>
+          </div>
+          <div class="col-xs-3 pad_rmv">
+            <div class="color7 col-xs-6 pad_rmv">&nbsp;</div>
+            <div class="color8 col-xs-6 pad_rmv">&nbsp;</div>
+          </div>
+        </div>
+        <nav style="margin-bottom: 0px;border-bottom: 1px solid #eee;" class="navbar navbar-default navbar-fixed-top main_navbar">
+          <div class="container-fluid main_container_fluid">
+            <div class="navbar-header">
+              <button type="button" data-toggle="collapse" data-target="#myNavbar" class="navbar-toggle"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a href="#" style="padding: 4px 10px;" class="navbar-brand"> <img src="img/JPmorgan.png" alt=".." style="width: 80%;"></a>
+            </div>
+            <div id="myNavbar" class="collapse navbar-collapse">
+              <ul class="nav navbar-nav Mynavbar-nav">
+                <li><a href="#" style="color:#ec2029;">Today's Deal</a></li>
+                <li><a href="#" style="color:#03a79e;">Best Offers</a></li>
+              </ul>
+              <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown"><a data-toggle="dropdown" href="#" style="display: inline-block;padding: 6px 20px;height: 60px;" class="dropdown-toggle">Hey John! &nbsp;
+                    <div style="display: inline-block;top: 10px;position: relative;" class="media">
+                      <div href="" style="" class="media-left"><img src="img/square.jpg" alt=".." style="width:30px;height:30px;" class="img-circle"></div>
+                    </div><span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Accounts</a></li>
+                    <li><a href="#">Settings</a></li>
+                    <li><a href="#">Logout</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div style="width:370px;position:fixed;height:100%;right: -370px;background: #fff;padding:0px 5px;" class="offcanvas_cart">
+            <div style="padding:10px 20px;border-bottom:1px solid #eee;border-top:1px solid #eee;" class="col-xs-12">
+              <div class="col-xs-6 pad_rmv">
+                <div style="float:right;padding: 4px 25px;border: 1px solid #eee;" class="wishlist myActive"><span style="font-size: 18px;padding: 5px;" class="glyphicon glyphicon-heart"></span>
+                  <!--img(src="img/heart.png" alt="..", style="width:;")-->
+                  <label>Wishlist  </label>
+                </div>
+              </div>
+              <div class="col-xs-6 pad_rmv">
+                <div style="float:left;padding: 4px 35px;border: 1px solid #eee;" class="cart"><span style="font-size: 18px;padding: 5px;" class="glyphicon glyphicon-shopping-cart"></span>
+                  <!--img(src="img/heart.png" alt="..", style="width:;")-->
+                  <label>Cart (02) </label>
+                </div>
+              </div>
+            </div>
+            <div style="padding: 18px 20px;border-bottom:1px solid #eee;" class="col-xs-12">
+              <div class="col-xs-6 pad_rmv">
+                <div style="padding: 5px 5px;" class="item_details">
+                  <div class="media"><a href="#" class="media-left"><img src="img/aviation1.jpg" style="width: 55px;" alt="Generic placeholder image" class="media-object"></a>
+                    <div class="media-body">
+                      <h6 style="color: #c1c1c1;" class="media-heading">
+
+                        Aviation Classic Desktop Travel..
+                      </h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xs-6 pad_rmv">
+                <div style="" class="price_cart"><span style="padding: 0px 20px;line-height: 4;" class="price"><b>Rs. 1,800</b></span><span style="padding:2px;border:1px solid #eee;float:right;margin: 10px 5px;" class="cart_square"><span style="font-size: 18px;padding: 7px;" class="glyphicon glyphicon-shopping-cart"></span>
+                    <!--img(src="img/heart.png" alt="..", style="")--></span></div>
+              </div>
+            </div>
+            <div style="padding: 18px 20px;border-bottom:1px solid #eee;" class="col-xs-12">
+              <div class="col-xs-6 pad_rmv">
+                <div style="padding: 5px 5px;" class="item_details">
+                  <div class="media"><a href="#" class="media-left"><img src="img/candle1.jpg" style="width: 55px;" alt="Generic placeholder image" class="media-object"></a>
+                    <div class="media-body">
+                      <h6 style="color: #c1c1c1;" class="media-heading">
+
+                        Transit Issue Travel Candle Amber
+                      </h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xs-6 pad_rmv">
+                <div style="" class="price_cart"><span style="padding: 0px 20px;line-height: 4;" class="price"><b>Rs. 900</b></span><span style="padding:2px;border:1px solid #eee;float:right;margin: 10px 5px;" class="cart_square"><span style="font-size: 18px;padding: 7px;" class="glyphicon glyphicon-shopping-cart"></span>
+                    <!--img(src="img/heart.png" alt="..", style="")-->
+                    </span></div>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <div class="row">
+        <nav class="navbar navbar-default">
+          <div class="container-fluid">
+            <ul class="nav navbar-nav list-inline sec_nav">
+              <li><a href="#"><i aria-hidden="true" style="padding-right: 10px;" class="fa fa-bars"></i>Categories</a></li>
+              <li>
+                <div class="mycontent-left"></div>
+              </li>
+              <li style="padding: 10px 10px;">
+                <div class="search">
+                  <input type="text" placeholder="Search away" style="padding-left: 30px;border: none;height:30px;border-left: 1px solid #eee;"><span for="email" rel="tooltip" title="email" style="position: absolute;left: 15px;top:15px;padding: 4px 5px;" class="glyphicon glyphicon-search"></span>
+                </div>
+                <!--input#usr.form-control(type='text',placeholder="Search away")-->
+              </li>
+            </ul>
+            <ul style="margin: 0 0;" class="nav navbar-nav navbar-right">
+              <li style="padding: 10px;display: inline-block;" class="wishlist_home"><a href="#" style="padding: 0px;"><span style="font-size: 18px;padding: 5px;color: #00a899;" class="glyphicon glyphicon-heart"></span>
+                  <!--img(src='img/heart.png', alt='..')--></a></li>
+              <li style="padding: 10px;display: inline-block;" class="cart_home"><a href="#" style="padding: 0px;"><span style="font-size: 18px;padding: 5px;color: #00a899;" class="glyphicon glyphicon-shopping-cart"></span>
+                  <!--img(src='img/cart.png', alt='..')-->
+                  </a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <div class="container">
+        <div style="" class="row site_content">
+          <div class="col-xs-12">
+            <div class="fire_hd"><a href="#"><img src="img/top.jpg" alt=".." style="width:100%;"></a></div>
+          </div>
+          <div class="col-xs-12">
+            <div class="seperator">
+              <div style="position:relative;" class="seperator_container">
+                <hr class="style1"><span href="#" style="position:absolute;top:-30px;left:47%;"><img src="img/Electronic seperator1.jpg" alt=".." style="width: 90%;"></span>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 pad_rmv">
+            <div class="go_ip clearfix">
+              <div style="padding-top:5px;" class="col-md-6 clearfix">
+                <div class="col-xs-12 pad_rmv">
+                  <div class="upper_cont col-xs-12 pad_rmv"><a href="#"><img src="img/Go pro.jpg" alt=".." style="width:100%;"></a></div>
+                  <div class="lower_cont clearfix"><span style="padding-top: 11px;" class="col-xs-6 pad_rmv"><a href="#" style="padding-right:4px;"><img src="img/mobile.jpg" alt=".." style="width:97%;"></a></span><span style="padding-top: 11px;text-align: right;" class="col-xs-6 pad_rmv"><a href="#"><img src="img/transistor.jpg" alt=".." style="width:97%;"></a></span></div>
+                </div>
+              </div>
+              <div style="padding-top:5px;" class="col-md-6">
+                <div class="ip"><a href="#"><img src="img/Iphone.jpg" alt=".." style="width:100%;height: 410px;"></a></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12">
+            <div class="hills"><a href="#"><img src="img/blue Hills.jpg" alt=".." style="width:100%;"></a></div>
+          </div>
+          <div class="col-xs-12">
+            <div class="seperator">
+              <div style="position:relative;" class="seperator_container">
+                <hr class="style1"><span href="#" style="position:absolute;top:-30px;left:47%;"><img src="img/fashion_seperator.jpg" alt=".." style="width: 90%;"></span>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 pad_rmv">
+            <div class="go_ip clearfix">
+              <div style="padding-top:5px;" class="col-md-6 clearfix">
+                <div class="col-xs-12 pad_rmv">
+                  <div class="upper_cont col-xs-12 pad_rmv"><a href="#"><img src="img/New arrival.jpg" alt=".." style="width:100%;"></a></div>
+                  <div class="lower_cont clearfix"><span style="padding-top: 11px;" class="col-xs-6 pad_rmv"><a href="#" style="padding-right:4px;"><img src="img/Belt.jpg" alt=".." style="width:97%;"></a></span><span style="padding-top: 11px;text-align: right;" class="col-xs-6 pad_rmv"><a href="#"><img src="img/socks.jpg" alt=".." style="width:97%;"></a></span></div>
+                </div>
+              </div>
+              <div style="padding-top:5px;" class="col-md-6">
+                <div class="ip"><a href="#"><img src="img/beard_guy.jpg" alt=".." style="width:100%;height: 410px;"></a></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12">
+            <div class="seperator">
+              <div style="position:relative;" class="seperator_container">
+                <hr class="style1"><span href="#" style="position:absolute;top:-30px;left:47%;"><img src="img/home_seperator.jpg" alt=".." style="width: 90%;"></span>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 pad_rmv">
+            <div class="go_ip clearfix">
+              <div style="padding-top:5px;" class="col-md-6">
+                <div class="ip"><a href="#"><img src="img/orange.jpg" alt=".." style="width:100%;height: 410px;"></a></div>
+              </div>
+              <div style="padding-top:5px;" class="col-md-6 clearfix">
+                <div class="col-xs-12 pad_rmv">
+                  <div class="upper_cont col-xs-12 pad_rmv"><a href="#"><img src="img/New arrival.jpg" alt=".." style="width:100%;"></a></div>
+                  <div class="lower_cont clearfix"><span style="padding-top: 11px;" class="col-xs-6 pad_rmv"><a href="#" style="padding-right:4px;"><img src="img/transistor.jpg" alt=".." style="width:97%;"></a></span><span style="padding-top: 11px;text-align: right;" class="col-xs-6 pad_rmv"><a href="#"><img src="img/mobile.jpg" alt=".." style="width:97%;"></a></span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="col-xs-4">
+        <p><span style="line-height:2;">Powered By</span><img src="img/poweredBy.jpg" alt=".." style="width:60px;"></p>
+      </div>
+      <div class="col-xs-8">
+        <ul class="navbar-right list-inline footer_links">
+          <li><a href="#">Contact Us</a></li>
+          <li><i aria-hidden="true" style="font-size: 8px;color: #999999;" class="fa fa-circle"></i></li>
+          <li><a href="#">Terms & Conditions</a></li>
+          <li><i aria-hidden="true" style="font-size: 8px;color: #999999;" class="fa fa-circle"></i></li>
+          <li><a href="#">Privacy Policy</a></li>
+        </ul>
+      </div>
+    </footer>
+    <div style="position:fixed;top:60px;width:100%;height:100%;background-color:black;opacity:0.2;z-index:9;display:none;" class="ovrlay"></div>
+    <script>
+      jQuery('.cart_home').click(function() {
+      jQuery('.offcanvas_cart').toggleClass('slide-menu');
+      $(".ovrlay").css("display","block");
+      });
+      jQuery('.wishlist_home').click(function() {
+      jQuery('.offcanvas_cart').toggleClass('slide-menu');
+      $(".ovrlay").css("display","block");
+      });
+
+      jQuery('.ovrlay').click(function() {
+      jQuery('.offcanvas_cart').toggleClass('slide-menu');
+      $(".ovrlay").css("display","none");
+      });
+    </script>
+  </body>
+</html>

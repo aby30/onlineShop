@@ -143,3 +143,15 @@ hr.style1{
 .sec_nav>li>a, .sec_nav>li {
     display: inline-block;
   }
+
+.offcanvas_cart_close {
+    float: left;
+    top: 7px;
+    position: relative;
+    left: -10px;
+    margin: 5px;
+  }
+/*
+@media (max-width: 768px) {
+  .offcanvas_cart { font-size: 11px; }
+}*/
